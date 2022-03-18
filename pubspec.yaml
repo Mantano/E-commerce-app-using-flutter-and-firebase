@@ -21,6 +21,7 @@ dependencies:
     sdk: flutter
   firebase: ^9.0.2
   firebase_auth: ^3.3.11
+  firebase_core: ^1.13.1
   cloud_firestore: ^3.1.10
   firebase_storage: ^10.2.9
   csv: ^5.0.1

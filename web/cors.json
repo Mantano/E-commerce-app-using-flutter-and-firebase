@@ -1,0 +1,17 @@
+[
+  {
+    "origin": [
+      "https://mno-flutterecommerce.web.app",
+      "https://mno-flutterecommerce-admin.web.app"
+    ],
+    "responseHeader": [
+      "Content-Type"
+    ],
+    "method": [
+      "GET",
+      "HEAD",
+      "DELETE"
+    ],
+    "maxAgeSeconds": 3600
+  }
+]

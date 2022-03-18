@@ -27,6 +27,20 @@ initialRoute:'/admin',
 ```
 - Hot reload your app. After this, click on button to write product data in firebase cloud firestore.
 
+## Deploying to Firebase Hosting
+
+### Configure CORS headers
+
+```
+ gsutil cors set cors.json gs://<your-firebase-project>.appspot.com
+```
+
+### Deploy
+
+```
+firebase login (once)
+firebase deploy --only hosting:mno-flutterecommerce
+```
 
 ## Features of this flutter app
 
